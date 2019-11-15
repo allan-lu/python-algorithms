@@ -1,9 +1,5 @@
 ############################################################################################
 #
-# Allan Lu
-# 10/22/2019
-# Homework 7
-#
 # Calculating the volumes of all buildings in NYC
 #
 # Input: Spatial data file of all buildings in Manhattan
@@ -24,10 +20,10 @@
 import arcpy
 
 # Create workspace environment and declare variables for feature layers
-arcpy.env.workspace = "./manh_data"
+arcpy.env.workspace = "INSERT PATH TO DATABASE"
 
-buildings = "manh_bldgs.shp"
-elevation = "manh_elevation.shp"
+buildings = "INSERT PATH TO BUILDINGS FILE"
+elevation =  "INSERT PATH TO ELEVATION FILE"
 out_feature = "output.shp"
 
 # Delete output file if it already exists in the workspace
