@@ -1,10 +1,5 @@
 ###########################################################################
 #
-# Allan Lu
-# 10/02/2019
-# GTECH 731 - Green
-# Homework 4
-#
 # Calculating the centroid of a polygon composed of polygon lots
 #
 # Input: GeoJSON polygon file of coordinates data from PLUTO
@@ -96,7 +91,7 @@ def find_geometric_centroid(polygon):
 
 
 # Opens the source file
-file_name = 'D:\Hunter 2019 Fall\GTECH 731\pluto.geojson'
+file_name = 'INSERT PATH TO FILE'
 with open(file_name, "r") as file:
     # Reads the data into a string variable
     data = file.read()
