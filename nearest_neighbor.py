@@ -1,9 +1,5 @@
 ##############################################################################################
 #
-# Allan Lu
-# 10/09/2019
-# Homework 5 & 6
-#
 # Calculating the nearest neighbor index with ArcPy and plain Python
 #
 # Input: spatial data file of elementary schools in Manhattan
@@ -44,7 +40,7 @@ USING ARCPY
 """
 
 
-data = "./assignment_06_files/shape_files/manh_elementary_schools.shp"
+data = "INSERT PATH TO FILE"
 
 # Prints the five average nearest neighbor analysis values
 # from the given bounding rectangle area
@@ -72,7 +68,7 @@ def get_distance(p, p_list):
 
 
 # Opens the source file
-file_name = "./assignment_06_files/manh_elementary_schools.geojson"
+file_name = "INSERT PATH TO FILE"
 with open(file_name) as f:
     # Reads and loads data into a dictionary
     data = f.read()
