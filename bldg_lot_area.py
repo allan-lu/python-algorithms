@@ -1,7 +1,9 @@
 import matplotlib.pyplot as plt
 import json
 
-with open("D:\Hunter 2019 Fall\GTECH 731\pluto.geojson") as f:
+path = "INSERT PATH TO FILE"
+
+with open(path) as f:
     data = f.read()
     d = json.loads(data)
     area_dic = {}
